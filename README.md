@@ -1,4 +1,4 @@
-Disable dedicated GPU and run on internal graphics to prevent BSOD when unplugged.
+TEMPORARY FIX to disable dedicated GPU and run on internal graphics to prevent nvlddmkm.sys BSOD when unplugged.
 
 How to use script:
 1. Download both bat files and place them somewhere safe.
