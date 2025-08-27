@@ -11,3 +11,7 @@ How to use script:
    The logic is like this: PC Wakes up, PC doesnt know if power state changed so automatically disables GPU, 10 seconds after startup check if PC is plugged or not, if plugged go ahead and enable the GPU Device, if unplugged do nothing thus leave it disabled.
 
 PS: If you have done everything and the script doesnt re-enable the GPU Device when ran, turn off Energy saver in Windows, i assume sometimes Windows is fighting the script from running when trying to conserve power.
+
+
+EDIT!!: If this solution of disabling GPU driver worked for you also check jobeid's program, its a even better solution as you dont have to disable it, it instead keeps the GPU idle by pinging it which prevents it from BSOD-ing.
+https://github.com/jobeid/TrayPwrD3
