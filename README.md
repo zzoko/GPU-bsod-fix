@@ -1,6 +1,6 @@
 TEMPORARY FIX to disable dedicated GPU and run on internal graphics to prevent nvlddmkm.sys BSOD when unplugged.
 
-How to use script:
+**How to use script:**
 1. Download both bat files and place them somewhere safe.
 2. Go to device manager, find your dedicated GPU (eg. RTX 3080), right click > details > device instance path > copy the value (eg. PCI\XXXXXXXXXXXXXXXXXXXX)
 3. Edit each bat file with notepad, replace existing "PCI\XXXXXXXXXXXXXXXXXXXX" with the one that matches your device that you copied.
@@ -13,5 +13,5 @@ How to use script:
 PS: If you have done everything and the script doesnt re-enable the GPU Device when ran, turn off Energy saver in Windows, i assume sometimes Windows is fighting the script from running when trying to conserve power.
 
 
-EDIT!!: If this solution of disabling GPU driver worked for you also check jobeid's program, its a even better solution as you dont have to disable it, it instead keeps the GPU idle by pinging it which prevents it from BSOD-ing.
-https://github.com/jobeid/TrayPwrD3
+**EDIT!!: If this solution of disabling GPU driver worked for you also check jobeid's program, its a even better solution as you dont have to disable it, it instead keeps the GPU idle by pinging it which prevents it from BSOD-ing.
+https://github.com/jobeid/TrayPwrD3**
